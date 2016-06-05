@@ -33,7 +33,7 @@ class Home extends CI_Controller {
 		                $this->session->set_userdata('uid', $res->id);
 		                $this->session->set_userdata('utype', $res->user_type);
 		                $this->session->set_userdata('uname', $res->name);
-		                $this->session->set_userdata('img', $res->img);
+		                $this->session->set_userdata('uimg', $res->img);
 		                redirect(site_url('user'),'refresh');
                 	} else if($res->status == 2) {
                 		$this->session->set_flashdata('err', 'Your account is blocked. Please contact the admin.');
@@ -119,4 +119,25 @@ class Home extends CI_Controller {
 		$this->load->view('mini/register', $data);
 		$this->load->view('mini/footer');
 	}
+
+	public function contact_us()
+	{
+		if($this->input->post())
+		{
+			$data = [
+				'name' => $this->input->post('name'),
+				'phone' => $this->input->post('phone'),
+				'email' => $this->input->post('email'),
+				'subject' => $this->input->post('subject'),
+				'message' => $this->input->post('message'),
+			];
+			if($this->com->insert('contact_us', $data)) {
+				echo 'sent';
+			} else {
+				echo 'error';
+			}
+		}
+	}
+
+
 }

@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>TechGut</title>
+  <title>ODBMS</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -52,7 +52,7 @@
 <![endif]-->
 </head>
 <body>
-  <div class="loader"></div>
+  <!-- <div class="loader"></div> -->
   <div class="main" id="home">
     <!-- slider -->
       <div class="tp-banner-container">
@@ -72,7 +72,7 @@
             data-elementdelay="0.1"
             data-endelementdelay="0.1"
             data-endspeed="300"
-            style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;"><h1>OUR THINKING</h1>
+            style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;"><h1>DONATE BLOOD</h1>
           </div>
           <div class="tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme head-tag"
           data-x="1090"
@@ -85,7 +85,7 @@
           data-elementdelay="0.1"
           data-endelementdelay="0.1"
           data-endspeed="300"
-          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;"><h1>IS</h1>
+          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;"><h1></h1>
         </div>
 
         <!-- LAYERS -->
@@ -100,7 +100,7 @@
         data-elementdelay="0.1"
         data-endelementdelay="0.1"
         data-endspeed="300"
-        style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;"><h1>EXTREAMLY</h1>
+        style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;"><h1>SAVE</h1>
       </div>
       <div class="tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme"
       data-x="1024"
@@ -113,7 +113,7 @@
       data-elementdelay="0.1"
       data-endelementdelay="0.1"
       data-endspeed="300"
-      style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;"><h1>NICE</h1>
+      style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;"><h1>LIFE</h1>
     </div>
 
 
@@ -179,7 +179,7 @@ data-elementdelay="0.05"
 data-endelementdelay="0.1"
 data-endspeed="500"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2 class="small-title second-title">neat and clean code</h2>
+<h2 class="small-title second-title">Share a little</h2>
 </div>
 
 <!-- LAYER NR. 3 -->
@@ -196,7 +196,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2  class="small-title second-title">use custome offcanvas </h2>
+<h2  class="small-title second-title">Care a little </h2>
 </div>
 <!-- LAYER NR. 4 -->
 <div class="tp-caption  lfl tp-resizeme"
@@ -212,7 +212,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2 class="small-title second-title"> Perfect, HTML5, CSS3 & JS</h2>
+<h2 class="small-title second-title"> Donate Blood</h2>
 </div>
 
 <!-- LAYER NR. 5 -->
@@ -229,7 +229,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">buy now</button>
+<button type="button" class="btn btn-primary" style="background-color: #f00;border:1px solid #DA0000;">Login</button>
 </div>
 </li>
 
@@ -250,7 +250,7 @@ style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
   data-splitout="chars"
   data-elementdelay="0.08"
   style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-  <h1><span>TECHGUT</span> IS YOUR MIND</h1>
+  <h1><span>When did you last give Blood ?</span></h1>
 </div>
 
 <!-- LAYER NR. 2 -->
@@ -266,7 +266,7 @@ data-elementdelay="0.05"
 data-endelementdelay="0.1"
 data-endspeed="500"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2 class="small-title">Easy to Customize</h2>
+<h2 class="small-title">10,000+ Profiles</h2>
 </div>
 
 <!-- LAYER NR. 3 -->
@@ -283,7 +283,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2  class="small-title">Multiple Blog pages</h2>
+<h2  class="small-title">Register to access</h2>
 </div>
 
 <!-- LAYER NR. 4 -->
@@ -300,7 +300,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<h2 class="small-title" > have Parallax section</h2>
+<h2 class="small-title" > Find blood donors</h2>
 </div>
 
 <!-- LAYER NR. 5 -->
@@ -317,7 +317,7 @@ data-endelementdelay="0.1"
 data-endspeed="500"
 data-endeasing="Power4.easeIn"
 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-<button type="button" class="btn btn-default buy-btn">buy now</button>
+<a href="<?php echo site_url('home/register'); ?>" class="btn btn-default buy-btn">Register Now</a>
 </div>
 </li>
 <li class="items" data-transition="slidevertical" data-slotamount="1" data-masterspeed="1500" data-thumb="<?php echo base_url('website/img/slider/slider_img_03.jpg'); ?>" data-delay="13000"  data-saveperformance="off">
@@ -339,7 +339,7 @@ style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
   data-endspeed="500"
   data-endeasing="Power4.easeIn"
   style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-  <h1><span>we create </span> amazing layout </h1>
+  <h1> Someone is needing Blood somewhere </h1>
 </div>
 
 <!-- LAYER NR. 2 -->
@@ -355,7 +355,7 @@ data-elementdelay="0.1"
 data-endelementdelay="0.1"
 data-endspeed="300"
 style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a adipiscinglib,</p>
+<p>Donate Blood to Save Life</p>
 </div>
 
 <!-- LAYER NR. 3 -->
@@ -371,7 +371,7 @@ data-elementdelay="0.1"
 data-endelementdelay="0.1"
 data-endspeed="300"
 style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-<p>ultriceslectus. Cras porta nisl at tincidunt tincidunt.</p>
+<p>Blood Donation will cost you nothing but it will save a life!</p>
 </div>
 
 <!-- LAYER NR. 4 -->
@@ -388,7 +388,7 @@ data-endelementdelay="0.1"
 data-endspeed="1000"
 data-endeasing="Power1.easeOut"
 style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-<button type="button" class="btn btn-danger" style="background-color:transparent;">see More</button>
+<a href="<?php echo site_url('home/login'); ?>" class="btn btn-danger" style="background-color:transparent;color:#fff">Login</a>
 </div>
 <!-- LAYER NR. 5 -->
 <div class="lfr tp-caption tp-resizeme start-button"
@@ -404,7 +404,7 @@ data-endelementdelay="0.1"
 data-endspeed="1000"
 data-endeasing="Power1.easeOut"
 style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-<button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">buy now</button>
+<a href="<?php echo site_url('home/register'); ?>" class="btn btn-primary" style="background-color: #f00;border:1px solid #C70101;color:#fff">Register Now</a>
 </div>
 <!-- LAYER NR. 6 -->
 <div class="tp-caption tp-resizeme lfb randomrotate down-arrow"
@@ -445,31 +445,13 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
         </div>
         <div id="navbar" class="navbar-collapse collapse pull-right hidden-xs">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a class="page-scroll" href="#home">Home</a></li>
+            <li> <a class="page-scroll" href="#home">Home</a></li>
             <li> <a class="page-scroll" href="#about">about us</a></li>
             <li> <a class="page-scroll" href="#services">services</a></li>
-            <li> <a class="page-scroll" href="#product">product</a></li>
-            <li> <a class="page-scroll" href="#team">team</a></li>
-            <li class="dropdown"> <a class="page-scroll drop dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#blog">blog</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-full-width.html">full-width Blog</a></li>
-                <li><a href="blog-sidebar.html">sidebar blog</a></li>
-              </ul>
-            </li>
         
           <li><a class="page-scroll" href="#contact">Contact</a></li>
-          <!-- Search Block -->
-          <li>
-            <i class="search fa fa-search search-btn"></i>
-            <div class="search-open" style="display:none;" >
-              <div class="input-group animated fadeInDown" >
-                <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-btn">
-                  <button class="btn-u" type="button">Go</button>
-                </span>
-              </div>
-            </div>    
-          </li>
+          <li><a href="<?php echo site_url('home/login'); ?>">Login</a></li>
+          <li><a href="<?php echo site_url('home/register'); ?>">Register</a></li>
           <!-- End Search Block -->
         </ul>
       </div><!--/.nav-collapse -->
@@ -625,440 +607,6 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
   </div><!-- container -->
 </section><!-- /our services -->
 
-<!-- CLEAN IDEA AND UNIQUE DESIGN -->
-<section id="clean" class="clean-idea section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 text-center p-padding">
-        <h1 class="section-title">clean idea and unique design</h1>
-        <p>A designer knows he has achieved perfection not when there is nothingleft to add, but when there is nothing left to take away.</p>
-        <div class="button-set">
-          <button type="button" class="btn btn-danger"><i class="fa fa-link"></i>Read More</button>
-          <a href="#contact" class="page-scroll contact-us"><i class="fa fa-phone"></i>Contact Us</a>
-        </div><!-- /.button-set -->
-      </div><!-- col-xs-12 -->
-    </div><!-- row-->
-  </div><!-- container -->
-</section><!-- /clean idea and unique design -->
-
-<!-- OUR LATEST WORKS -->
-<section class="protfolio section-padding" id="product">
-  <div class="container">
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 text-center p-padding animated" style="visibility: visible; animation-name: zoomIn;">
-        <h1 class="section-title">our latest works</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra maximus.</p>
-      </div>
-    </div><!-- row -->
-  </div><!-- container -->
-  <div class="portfolio-menu">
-    <div class="container">
-      <div class="row"> 
-        <div class="col-xs-12">
-          <ul class="wow zoomIn animated" id="filter" style="visibility: visible; animation-name: zoomIn;">
-            <li><a data-group="all" href="#" class="active">all</a></li>
-            <li><a data-group="wordpress" href="#">wordpress</a></li>
-            <li><a data-group="video" href="#">video</a></li>
-            <li><a data-group="image" href="#">image</a></li>
-            <li><a data-group="branding" href="#">branding</a></li>
-          </ul><!-- /#filter -->
-        </div><!-- /.col-xs-12 -->
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="row">
-    <div id="grid" class="shuffle" style="position: relative; height: 600px;">
-      <!-- portfolio-item -->
-      <div data-groups='["all", "image", "video"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered animated" style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio01.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal1" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /.portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio01.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["all", "image","wordpress","branding"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio02.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal2" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio02.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["all", "image","wordpress", "circle", "video"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio03.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal3" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio03.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["image", "all","wordpress", "branding"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio04.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal4" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio04.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["all","wordpress", "video", "branding"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio05.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal5" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio05.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["image", "all","wprdpress", "branding", "video"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio06.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal6" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio06.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["all", "branding", "video"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio07.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal7" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class=" btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio07.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-
-
-      <!-- portfolio-item -->
-      <div data-groups='["image", "all", "wordpress", "video"]' class=" portfolio-item col-xs-12 col-sm-6 col-md-3 shuffle-item filtered " style="margin:0; padding:0;">
-        <div class="portfolio">
-          <figure class="effect-julia">
-            <img alt="img21" src="<?php echo base_url('website/img/portfolio08.jpg'); ?>">
-            <figcaption>
-              <div class="socials">
-                <a data-toggle="modal" data-target="#myModal8" href=""><i class="fa fa-expand"></i></a>
-                <a href=""><i class="fa fa-share animated"></i></a>
-              </div>
-              <div class="scoial-heading">
-                <p>Mornign Dew</p>
-                <strong>Icons, Illustrations</strong>
-              </div>
-            </figcaption>     
-          </figure>
-        </div><!-- /.portfolio -->
-      </div><!-- /portfolio-item -->
-      <!-- MODAL/POPUP -->
-      <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn btn-default pull-right" data-dismiss="modal">X</button>
-              <span class="modal-title" id="myModalLabel">Our recent work</span>
-            </div>
-            <div class="modal-body" >
-              <img src="<?php echo base_url('website/img/portfolio08.jpg'); ?>" alt="img21"/>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MODAL/POPUP -->
-    </div> <!-- /grid --> 
-  </div><!-- /row -->
-</section><!-- /our latest works -->
-
-<div class="more-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h2 class="pull-left">Want To Work With Us Then Feel Free To Contact Us</h2>
-        <button type="button" id="load" class="btn btn-success pull-right">load More</button>
-      </div>
-    </div><!-- row -->
-  </div><!-- container -->
-</div><!-- /.more-area -->
-
-<!-- OUR TEAM -->
-<section id="team" class="our-team section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 text-center p-padding">
-        <h1 class="section-title">meet our team</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra maximus.</p>
-      </div><!-- col-xs-12 -->
-    </div><!-- row -->
-    <div class="row">
-      <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-        <div class="grid">
-          <figure class="effect-duke">
-            <img class="img-responsive" src="<?php echo base_url('website/img/team1.jpg'); ?>" alt="img09">
-            <figcaption>
-              <div class="icon-holder">
-                <ul >
-                  <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </figcaption>     
-          </figure>
-        </div>
-        <div class="team-designation">
-          <p>MATTIAS NUFFER</p>
-          <span>CEO</span>
-        </div>
-      </div>
-      <div class=" wow zoomIn col-xs-12 col-sm-6 col-md-3">
-        <div class="grid">
-          <figure class="effect-duke">
-            <img class="img-responsive" src="<?php echo base_url('website/img/team2.jpg'); ?>" alt="img09">
-            <figcaption>
-              <div class="icon-holder">
-                <ul >
-                  <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </figcaption>     
-          </figure>
-        </div>
-        <div class="team-designation">
-          <p>kendra hall</p>
-          <span>cto</span>
-        </div>
-      </div>
-      <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-        <div class="grid">
-          <figure class="effect-duke">
-            <img class="img-responsive" src="<?php echo base_url('website/img/team3.jpg'); ?>" alt="img09">
-            <figcaption>
-              <div class="icon-holder">
-                <ul >
-                  <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </figcaption>     
-          </figure>
-        </div>
-        <div class="team-designation">
-          <p>jessica morgan</p>
-          <span>programmer</span>
-        </div>
-      </div>
-      <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-        <div class="grid">
-          <figure class="effect-duke">
-            <img class="img-responsive" src="<?php echo base_url('website/img/team4.jpg'); ?>" alt="img09">
-            <figcaption>
-              <div class="icon-holder">
-                <ul >
-                  <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </figcaption>     
-          </figure>
-        </div>
-        <div class="team-designation">
-          <p>jenny terrell</p>
-          <span>market analyst</span>
-        </div>
-      </div>
-    </div><!-- row -->
-  </div><!-- container -->
-</section><!-- our team -->
 
 <!-- COUNTING -->
 <section  class="counting section-padding">
@@ -1096,12 +644,12 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
             <div class="carousel-inner" role="listbox">
               <div class="item active text-center">
                 <div class="image-bar" ><img src="<?php echo base_url('website/img/testimonial.jpg'); ?>" alt=""></div>
-                <p>“Perfection is achieved, not when there’s nothing more to add, but when theres is nothing left to take away.Laboriosam quae qui dolorem quasi molestias illo tempore optio amet, tempora deleniti. Magnam, distinctio!”</p>
+                <p>“I am happy that i am a member of ODBMS. I donated blood several times and that makes me very healthy.”</p>
                 <span class="pull-right"> Mark Robert</span>
               </div>
               <div class="item text-center">
                 <div class="image-bar" ><img src="<?php echo base_url('website/img/testimonial2.jpg'); ?>" alt=""></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe hic deserunt, fugit animi doloribus. Tempore, laboriosam. Laboriosam quae qui dolorem quasi molestias illo tempore optio amet, tempora deleniti. Magnam, distinctio!</p>
+                <p>"Thank you ODBMS. ODBMS helped me to find blood donors, when i needed blood for my Mom's operation."</p>
                   <span class="pull-right">  Matt Route</span>
                 </div><!-- item text-center -->
               </div><!-- carousel-inner -->
@@ -1121,103 +669,16 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
   </section><!-- testimonial -->
   
 
-  <!-- BLOG CONTENT -->
-  <section id="blog" class="blog-wrapper section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="wow zoomIn col-xs-12 text-center p-padding">
-          <h1 class="section-title">BLOG</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra maximus.</p>
-        </div><!-- col-xs-12 -->
-        <div class="wow zoomIn col-xs-12 col-md-4">
-          <img class="img-responsive" src="<?php echo base_url('website/img/blog1.jpg'); ?>" alt="Image"/>
-          <div class="blog-date-wrapper">
-            <span class="floatleft"><i class="fa fa-calendar"></i> 01th june 2015</span>
-            <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
-            <span class="floatright"><i class="fa fa-comments"></i> 25 </span>
-            <span class="clearboth"> &nbsp; </span>
-          </div>
-          <div class="blog-container">
-            <h2><a href="blog-sidebar.html" target="_blank">The Green Fields of Spring</a></h2>
-            <p>Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
-            <a class="custom-button" href="blog-sidebar.html" >read more <i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="wow zoomIn col-xs-12 col-md-4">
-          <img class="img-responsive" src="<?php echo base_url('website/img/blog2.jpg'); ?>" alt="Image"/>
-          <div class="blog-date-wrapper">
-            <span class="floatleft"><i class="fa fa-calendar"></i> 01th june 2015</span>
-            <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
-            <span class="floatright"><i class="fa fa-comments"></i> 25 </span>
-            <span class="clearboth"> &nbsp; </span>
-          </div>
-          <div class="blog-container">
-            <h2><a href="blog-sidebar.html" target="_blank"> 10 Things you Need to Know</a></h2>
-            <p>Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
-            <a class="custom-button" href="blog-sidebar.html" >read more <i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="wow zoomIn col-xs-12 col-md-4">
-          <img class="img-responsive" src="<?php echo base_url('website/img/blog3.jpg'); ?>" alt="Image"/>
-          <div class="blog-date-wrapper">
-            <span class="floatleft"><i class="fa fa-calendar"></i> 01th june 2015</span>
-            <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
-            <span class="floatright"><i class="fa fa-comments"></i> 25 </span>
-            <span class="clearboth"> &nbsp; </span>
-          </div>
-          <div class="blog-container">
-            <h2><a href="blog-sidebar.html" target="_blank">The Secret Trick to Achieve</a></h2>
-            <p>Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
-            <a class="custom-button" href="blog-sidebar.html" >read more <i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-    <div class="more-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2 class="pull-left">techgut- Premium One Page corporate layout</h2>
-            <button type="button" class="btn btn-success pull-right">see More</button>
-          </div><!-- col-xs-12 -->
-        </div><!-- row -->
-      </div><!-- container -->
-    </div><!-- /.more-area -->
-  </section><!-- blog content -->
-
-  <!-- our partner -->
-  <section class="partner-wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="wow zoomIn col-sm-12">
-          <div class="owl-wrap">
-            <div id="owl-example" class="owl-carousel">
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner1.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner2.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner3.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner4.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner5.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner1.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner2.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner3.jpg'); ?>" alt=""></div>
-              <div class="feature-image"><img class="img-responsive" src="<?php echo base_url('website/img/partner4.jpg'); ?>" alt=""></div>
-            </div><!-- /.owl-carousel -->
-          </div><!-- /.owl-wrap -->
-        </div><!-- /.col-sm-12 -->
-      </div><!-- .row -->
-    </div><!-- .container -->
-  </section><!-- our partner -->
-
   <!-- GET IN TOUCH -->
   <section id="contact" class="contact-wrapper section-padding">
     <div class="container">
       <div class="row">
         <div class="wow zoomIn col-xs-12 text-center p-padding">
           <h1 class="section-title">get in touch</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra maximus.</p>
+          <p>Any dout, need any help? Leave a message here. We will contact you soon.</p>
         </div><!-- col-xs-12 -->
         <div class="wow zoomIn col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-          <form name="contactForm" id='contact_form' method="post" action='php/email.php'>
+          <form name="contactForm" id='contact_form' method="post" action='<?php echo site_url('home/contact_us'); ?>'>
             <div class="form-inline">
               <div class="form-group col-sm-6">
                 <input type="text" class="form-control" name="name" id="exampleInputName" placeholder="name" >
@@ -1229,7 +690,7 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
                 <input type="text" class="form-control" name="subject" id="exampleInputSubject" placeholder="subject" >
               </div>
               <div class="form-group col-sm-6">
-                <input type="text" class="form-control" name="company" id="exampleInputCompany" placeholder="company" >
+                <input type="text" class="form-control" name="phone" id="exampleInputCompany" placeholder="phone" >
               </div>
               <div class="form-group col-sm-12">
                 <textarea class="form-control" name="message" rows="3" id="exampleInputMessage" placeholder="message" ></textarea>
@@ -1258,7 +719,6 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
               <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
               <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" target="_blank"><i class="fa fa-behance"></i></a></li>
               <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div><!-- /.icon-holder -->
@@ -1273,7 +733,7 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
       <div class="container">
         <div class="row">
           <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-            <a href="index.html"><img src="<?php echo base_url('website/img/footer-logo.png'); ?>" alt="TechGut"></a>
+            <a href="index.html"><img src="<?php echo base_url('website/img/logo.png'); ?>" alt="ODBMS"></a>
             <p class="footer-content">Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</p>
           </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
           <div class="wow zoomIn col-xs-12 col-sm-3 col-md-3">
@@ -1368,7 +828,7 @@ style="z-index: 3; max-width: 50px; max-height: 50px; white-space: nowrap;">
 <script src="<?php echo base_url('website/js/wow.min.js'); ?>"></script>
 
 <!-- waypoints JS-->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="<?php echo base_url('website/js/waypoints.min.js'); ?>"></script>
 
 <!-- Counterup JS -->
 <script src="<?php echo base_url('website/js/jquery.counterup.min.js'); ?>"></script>

@@ -2,3 +2,17 @@
 	width: auto;
 	max-width: 800px !important;
 }
+
+.btn-red {
+	background: #f00;
+	color: #fff;
+}
+.btn-red:hover{
+	color: #fff;
+}
+.text-red {
+	color: #f00;
+}
+.bg-white {
+	background: #fff;
+}

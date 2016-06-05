@@ -158,7 +158,7 @@
                             <ul class="conversation-list nicescroll">
                                 <li class="clearfix">
                                     <div class="chat-avatar">
-                                        <img src="<?php echo base_url('assets_user/img/avatar-2.jpg'); ?>" alt="male">
+                                        <img src="<?php echo base_url('assets/img/avatar-2.jpg'); ?>" alt="male">
                                         <i>10:00</i>
                                     </div>
                                     <div class="conversation-text">
@@ -172,7 +172,7 @@
                                 </li>
                                 <li class="clearfix odd">
                                     <div class="chat-avatar">
-                                        <img src="<?php echo base_url('assets_user/img/avatar-3.jpg'); ?>" alt="Female">
+                                        <img src="<?php echo base_url('assets/img/avatar-3.jpg'); ?>" alt="Female">
                                         <i>10:01</i>
                                     </div>
                                     <div class="conversation-text">
@@ -186,7 +186,7 @@
                                 </li>
                                 <li class="clearfix">
                                     <div class="chat-avatar">
-                                        <img src="<?php echo base_url('assets_user/img/avatar-2.jpg'); ?>" alt="male">
+                                        <img src="<?php echo base_url('assets/img/avatar-2.jpg'); ?>" alt="male">
                                         <i>10:01</i>
                                     </div>
                                     <div class="conversation-text">
@@ -200,7 +200,7 @@
                                 </li>
                                 <li class="clearfix odd">
                                     <div class="chat-avatar">
-                                        <img src="<?php echo base_url('assets_user/img/avatar-3.jpg'); ?>" alt="male">
+                                        <img src="<?php echo base_url('assets/img/avatar-3.jpg'); ?>" alt="male">
                                         <i>10:02</i>
                                     </div>
                                     <div class="conversation-text">
@@ -295,49 +295,49 @@
                         <ul class="list-group list-group-lg">
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-3.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-3.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-primary inline m-t-10">CEO</span>
                                 <a href="#">Jonathan Deo</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-4.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-4.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-info inline m-t-10">Webdesigner</span>
                                 <a href="#">Doler Perte</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-5.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-5.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-warning inline m-t-10">Webdeveloper</span>
                                 <a href="#">Jannie Dvis</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-6.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-6.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-pink inline m-t-10">Programmer</span>
                                 <a href="#">Emma Welson</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-7.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-7.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-warning inline m-t-10">Webdeveloper</span>
                                 <a href="#">Jannie Dvis</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-8.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-8.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-info inline m-t-10">Webdesigner</span>
                                 <a href="#">Petere Husen</a>
                             </li>
                             <li class="list-group-item b-0">
                                 <a href="#" class=" m-r-10">
-                                  <img src="<?php echo base_url('assets_user/img/avatar-9.jpg'); ?>" class="thumb-sm br-radius">
+                                  <img src="<?php echo base_url('assets/img/avatar-9.jpg'); ?>" class="thumb-sm br-radius">
                                 </a>
                                 <span class="pull-right label bg-warning inline m-t-10">Webdeveloper</span>
                                 <a href="#">John Deo</a>
