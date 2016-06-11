@@ -43,6 +43,9 @@
         <script src="<?php echo base_url('assets/assets/sweet-alert/sweet-alert.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/assets/sweet-alert/sweet-alert.init.js'); ?>"></script>
 
+        <script src="<?php echo base_url('assets/assets/modal-effect/js/classie.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/assets/modal-effect/js/modalEffects.js'); ?>"></script>
+
         <script src="<?php echo base_url('assets/js/jquery.app.js'); ?>"></script>
         <!-- Chat -->
         <script src="<?php echo base_url('assets/js/jquery.chat.js'); ?>"></script>

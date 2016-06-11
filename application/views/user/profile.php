@@ -260,7 +260,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2">Password</label>
+                                <label class="control-label col-sm-2">New Password</label>
                                 <div class="col-sm-10">
                                     <input type="password" name="password" class="form-control" required placeholder="********" >
                                 </div>

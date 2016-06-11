@@ -35,6 +35,8 @@
         <link href="<?php echo base_url('assets/assets/sweet-alert/sweet-alert.min.css'); ?>" rel="stylesheet">
 
         <link href="<?php echo base_url('assets/assets/notifications/notification.css'); ?>" rel="stylesheet" />
+        
+        <link href="<?php echo base_url('assets/assets/modal-effect/css/component.css'); ?>" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
@@ -74,6 +76,11 @@
                     <li class="<?php if($active==2) echo 'active'; ?>"><a href="<?php echo site_url('user/search'); ?>"><i class="fa fa-search" aria-hidden="true"></i> <span class="nav-label">Search</span></a> </li>
                     <?php if($this->utype == 3) { ?>
                     <li class="<?php if($active==3) echo 'active'; ?>"><a href="<?php echo site_url('user/members'); ?>"><i class="fa fa-users" aria-hidden="true"></i> <span class="nav-label">Members</span></a> </li>
+                    <?php } ?>
+                    <?php if($this->utype == 1) { ?>
+                    <li class="<?php if($active==4) echo 'active'; ?>"><a href="<?php echo site_url('user/users'); ?>"><i class="fa fa-users" aria-hidden="true"></i> <span class="nav-label">Users</span></a> </li>
+                    <li class="<?php if($active==5) echo 'active'; ?>"><a href="<?php echo site_url('user/organizations'); ?>"><i class="fa fa-sitemap" aria-hidden="true"></i> <span class="nav-label">Organizations</span></a> </li>
+                    <li class="<?php if($active==6) echo 'active'; ?>"><a href="<?php echo site_url('user/contact_us'); ?>"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="nav-label">Contact Us</span></a> </li>
                     <?php } ?>
 
                     
@@ -162,8 +169,9 @@
                         </a>
                         <ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
                             <li><a href="<?php echo site_url('user/profile'); ?>"><i class="fa fa-briefcase"></i>Profile</a></li>
-                            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                            <li><a href="#"><i class="fa fa-bell"></i> Friends <span class="label label-info pull-right mail-info">5</span></a></li>
+                            <?php if($this->utype != 3) { ?>
+                            <li><a href="javascript:;" class="md-trigger" data-modal="md-blood-donated"><i class="fa fa-tint text-red"></i> Blood Donated</a></li>
+                            <?php } ?>
                             <li><a href="<?php echo site_url('user/logout'); ?>"><i class="fa fa-sign-out"></i> Log Out</a></li>
                         </ul>
                     </li>
@@ -172,6 +180,30 @@
                 <!-- End right navbar -->
 
             </header>
+
+            <div class="md-modal md-effect-1" id="md-blood-donated">
+                <div class="md-content md-blood-donated-con">
+                    <h2><span class="text-red">Bood</span> Donated</h2>
+                    <hr class="no-margin">
+                    <div class="row">
+                        <form action="<?php echo site_url('user/blood_donated'); ?>" method="post">
+                            <p class="text-center">I donated Blood</p>
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <input type="text" name="date" class="form-control datepicker text-center" value="<?php echo date('d-m-Y'); ?>">
+                            </div>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <div class="col-md-12">
+                                <button class="md-close btn-sm btn-purple">Cancel</button>
+                                <button type="submit" class="md-close btn-sm btn-primary pull-right">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="md-overlay"></div>
+
+
             <!-- Header Ends -->
 
 

@@ -16,3 +16,23 @@
 .bg-white {
 	background: #fff;
 }
+.no-padding {
+	padding: 0 !important;
+}
+.no-margin {
+	margin: 0 !important;
+}
+
+.md-content h2 {
+	font-size: 24px;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.md-blood-donated-con {
+	background: url('../../website/img/slider/slider_img_02.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
