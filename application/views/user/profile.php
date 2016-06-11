@@ -6,25 +6,28 @@
               <!-- meta -->
               <div class="box-layout meta bottom">
                 <div class="col-sm-6 clearfix">
-                  <span class="img-wrapper pull-left m-r-15"><img src="img/avatar-2.jpg" alt="" style="width:64px" class="br-radius"></span>
+                  <span class="img-wrapper pull-left m-r-15"><img src="<?php echo $user->user_img; ?>" alt="" style="width:64px" class="br-radius"></span>
                   <div class="media-body">
-                    <h3 class="text-white mb-2 m-t-10 ellipsis">Jonathan Deo</h3>
-                    <h5 class="text-white"> Mycityname</h5>
+                    <h3 class="text-white mb-2 m-t-10 ellipsis"><?php echo $user->name; ?></h3>
+                    <h5 class="text-white"> <?php echo $user->district; ?></h5>
                   </div>
                 </div>
                 <div class="col-sm-6">
-
-                  <div class="pull-right">
-                    <div class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle btn btn-primary" href="#"> Following <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                            <li><a href="#">Poke</a></li>
-                            <li><a href="#">Private message</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Unfollow</a></li>
-                        </ul>
+                    <?php if($this->utype != 3) { ?>
+                    <div class="pull-right">
+                        <div class="dropdown">
+                            <?php if($user->availability) { ?>
+                            <a data-toggle="dropdown" class="dropdown-toggle btn btn-primary" href="#"> Available <span class="caret"></span></a>
+                            <?php } else { ?>
+                            <a data-toggle="dropdown" class="dropdown-toggle btn btn-danger" href="#"> Unvailable <span class="caret"></span></a>
+                            <?php } ?>
+                            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                <li><a href="<?php echo site_url('user/change_availability/1'); ?>">Available</a></li>
+                                <li><a href="<?php echo site_url('user/change_availability'); ?>">Unvailable</a></li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
+                    <?php } ?>
                 </div>
               </div>
               <!--/ meta -->
@@ -38,53 +41,64 @@
                 <div class="panel-body p-0"> 
                     <ul class="nav nav-tabs profile-tabs">
                         <li class="active"><a data-toggle="tab" href="#aboutme">About Me</a></li>
+                        <?php if($this->utype != 3) { ?>
                         <li class=""><a data-toggle="tab" href="#user-activities">Activities</a></li>
-                        <li class=""><a data-toggle="tab" href="#edit-profile">Settings</a></li>
-                        <li class=""><a data-toggle="tab" href="#projects">Projects</a></li>
+                        <?php } ?>
+                        <li class=""><a data-toggle="tab" href="#edit-profile">Edit</a></li>
+                        <li class=""><a data-toggle="tab" href="#settings">Settings</a></li>
                     </ul>
 
                     <div class="tab-content m-0"> 
 
                         <div id="aboutme" class="tab-pane active">
                         <div class="profile-desk">
-                            <h1>Johnathan Deo</h1>
-                            <span class="designation">PRODUCT DESIGNER (UX / UI / Visual Interaction)</span>
-                            <p>
-                                I have 10 years of experience designing for the web, and specialize in the areas of user interface design, interaction design, visual design and prototyping. I’ve worked with notable startups including Pearl Street Software.
-                            </p>
-                            <a class="btn btn-primary m-t-20" href="#"> <i class="fa fa-check"></i> Following</a>
+                            <h1><?php echo $user->name; ?></h1>
+                            <span class="designation"><?php echo $user->district; ?></span>
 
                             <table class="table table-condensed">
-                                <thead>
-                                    <tr>
-                                        <th colspan="3"><h3>Contact Information</h3></th>
-                                    </tr>
-                                </thead>
                                 <tbody>
                                     <tr>
-                                        <td><b>Url</b></td>
-                                        <td>
-                                        <a href="#" class="ng-binding">
-                                            www.example.com
-                                        </a></td>
-                                    </tr>
-                                    <tr>
                                         <td><b>Email</b></td>
-                                        <td>
-                                        <a href="#" class="ng-binding">
-                                            jonathandeo@example.com
-                                        </a></td>
+                                        <td><?php echo $user->email; ?></td>
                                     </tr>
                                     <tr>
                                         <td><b>Phone</b></td>
-                                        <td class="ng-binding">(123)-456-7890</td>
+                                        <td><?php echo $user->phone; ?></td>
+                                    </tr>
+                                    <?php if($this->utype != 3) { ?>
+                                    <tr>
+                                        <td><b>Blood Group</b></td>
+                                        <td><span class="text-red"><?php echo $user->blood_group; ?></span></td>
                                     </tr>
                                     <tr>
-                                        <td><b>Skype</b></td>
-                                        <td>
-                                        <a href="#" class="ng-binding">
-                                            jonathandeo123
-                                        </a></td>
+                                        <td><b>Gender</b></td>
+                                        <td><?php echo ucfirst($user->gender); ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Date of Birth</b></td>
+                                        <td><?php echo date('d-m-Y', strtotime($user->dob)); ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Location</b></td>
+                                        <td><?php echo $user->location; ?></td>
+                                    </tr>
+                                    <?php } else { ?>
+                                    <tr>
+                                        <td><b>Average no. of Employees</b></td>
+                                        <td><?php echo $user->avg_no_employees; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Address</b></td>
+                                        <td><?php echo $user->address; ?></td>
+                                    </tr>
+                                    <?php } ?>
+                                    <tr>
+                                        <td><b>District</b></td>
+                                        <td><?php echo $user->district; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>State</b></td>
+                                        <td><?php echo $user->state; ?></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -97,155 +111,167 @@
                         <div class="timeline-2">
                             <div class="time-item">
                                 <div class="item-info">
-                                    <div class="text-muted">5 minutes ago</div>
-                                    <p><strong><a href="#" class="text-info">John Doe</a></strong> Uploaded a photo <strong>"DSC000586.jpg"</strong></p>
+                                    <div class="text-muted"><?php echo date('d M Y', strtotime($user->created_at)); ?></div>
+                                    <p><span class="text-info">Registered</span></p>
                                 </div>
                             </div>
-
-                            <div class="time-item">
-                                <div class="item-info">
-                                    <div class="text-muted">30 minutes ago</div>
-                                    <p><a href="#" class="text-info">Lorem</a> commented your post.</p>
-                                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                            <?php 
+                            foreach ($donation_history as $key => $value) {
+                                ?>
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <div class="text-muted"><?php echo date('d M Y', strtotime($value->date)); ?></div>
+                                        <p><span class="text-info">Blood donated</span></p>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="time-item">
-                                <div class="item-info">
-                                    <div class="text-muted">59 minutes ago</div>
-                                    <p><a href="#" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
-                                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                                </div>
-                            </div>
-
-                            <div class="time-item">
-                                <div class="item-info">
-                                    <div class="text-muted">5 minutes ago</div>
-                                    <p><strong><a href="#" class="text-info">John Doe</a></strong>Uploaded 2 new photos</p>
-                                </div>
-                            </div>
-
-                            <div class="time-item">
-                                <div class="item-info">
-                                    <div class="text-muted">30 minutes ago</div>
-                                    <p><a href="#" class="text-info">Lorem</a> commented your post.</p>
-                                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                                </div>
-                            </div>
-
-                            <div class="time-item">
-                                <div class="item-info">
-                                    <div class="text-muted">59 minutes ago</div>
-                                    <p><a href="#" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
-                                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                                </div>
-                            </div>
+                                <?php
+                            }
+                            ?>
+                            
                         </div>
                     </div>
 
                     <!-- settings -->
                     <div id="edit-profile" class="tab-pane">
                         <div class="user-profile-content">
-                            <form role="form">
+                            <form class="form-horizontal" action="<?php echo site_url('user/profile_update'); ?>" method="post"  enctype="multipart/form-data" role="form">
                                 <div class="form-group">
-                                    <label for="FullName">Full Name</label>
-                                    <input type="text" value="John Doe" id="FullName" class="form-control">
+                                    <label class="control-label col-sm-2">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="name" class="form-control" value="<?php echo $user->name; ?>" required >
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="Email">Email</label>
-                                    <input type="email" value="first.last@example.com" id="Email" class="form-control">
+                                    <label class="control-label col-sm-2">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" name="email" class="form-control" value="<?php echo $user->email; ?>" required >
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="Username">Username</label>
-                                    <input type="text" value="john" id="Username" class="form-control">
+                                    <label class="control-label col-sm-2">Phone</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="phone" class="form-control" value="<?php echo $user->phone; ?>" required >
+                                    </div>
+                                </div>
+                                <?php if($this->utype != 3) { ?>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">Blood Group</label>
+                                    <div class="col-sm-10">
+                                        <select name="blood_group" class="form-control">
+                                            <?php foreach ($blood_groups as $key => $blood_group) {
+                                                if($blood_group->id == $user->blood_group_id) $selected = "selected='selected'"; else $selected = "";
+                                                echo "<option $selected value='".$blood_group->id."'>".$blood_group->name."</option>";
+                                            } ?>
+                                        </select>
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="Password">Password</label>
-                                    <input type="password" placeholder="6 - 15 Characters" id="Password" class="form-control">
+                                    <label class="control-label col-sm-2">Gender</label>
+                                    <div class="col-sm-10">
+                                        <div class="radio-inline">
+                                            <label class="cr-styled" for="rad-gender-male">
+                                                <input type="radio" <?php if($user->gender == 'male') echo "checked"; ?> id="rad-gender-male" name="gender" value="male"> 
+                                                <i class="fa"></i> Male
+                                            </label>
+                                        </div>
+                                        <div class="radio-inline">
+                                            <label class="cr-styled" for="rad-gender-female">
+                                                <input type="radio" <?php if($user->gender == 'female') echo "checked"; ?> id="rad-gender-female" name="gender" value="female"> 
+                                                <i class="fa"></i> Female
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="RePassword">Re-Password</label>
-                                    <input type="password" placeholder="6 - 15 Characters" id="RePassword" class="form-control">
+                                    <label class="control-label col-sm-2">Date of Birth</label>
+                                    <div class="col-sm-10">
+                                        <input class="form-control datepicker" type="text" name="dob" value="<?php echo date('d-m-Y', strtotime($user->dob)); ?>" required="" readonly="" >
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="AboutMe">About Me</label>
-                                    <textarea style="height: 125px;" id="AboutMe" class="form-control">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</textarea>
+                                    <label class="control-label col-sm-2">Location</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="location" class="form-control" value="<?php echo $user->location; ?>" required >
+                                    </div>
                                 </div>
-                                <button class="btn btn-primary" type="submit">Save</button>
+                                <?php } else { ?>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">Average no. of employees</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="no_employees" class="form-control" value="<?php echo $user->avg_no_employees; ?>" required >
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">Address</label>
+                                    <div class="col-sm-10">
+                                        <textarea name="address" class="form-control"><?php echo $user->address; ?></textarea>
+                                    </div>
+                                </div>
+                                <?php } ?>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">State</label>
+                                    <div class="col-sm-10">
+                                        <select name="state" class="form-control">
+                                            <option value="">-select state--</option>
+                                            <?php foreach ($states as $key => $state) {
+                                                if($state->id == $user->state_id) $selected = "selected='selected'"; else $selected = "";
+                                                echo "<option $selected value='".$state->id."'>".$state->name."</option>";
+                                            } ?>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">District</label>
+                                    <div class="col-sm-10">
+                                        <select name="district" class="form-control">
+                                            <option value="">-select district--</option>
+                                            <?php foreach ($districts as $key => $district) {
+                                                if($district->id == $user->district_id) $selected = "selected='selected'"; else $selected = "";
+                                                echo "<option $selected value='".$district->id."'>".$district->name."</option>";
+                                            } ?>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2">Image</label>
+                                    <div class="col-sm-10">
+                                        <input type="file" name="image" class="form-control" >
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <button class="btn btn-info" type="submit">Update</button>
+                                    </div>
+                                </div>
+
                             </form>
+
                         </div>
                     </div>
 
 
                     <!-- profile -->
-                    <div id="projects" class="tab-pane">
-                        <div class="row m-t-10">
-                            <div class="col-md-12">
-                                <div class="portlet"><!-- /primary heading -->
-                                    <div id="portlet2" class="panel-collapse collapse in">
-                                        <div class="portlet-body">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>#</th>
-                                                            <th>Project Name</th>
-                                                            <th>Start Date</th>
-                                                            <th>Due Date</th>
-                                                            <th>Status</th>
-                                                            <th>Assign</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>Velonic Admin</td>
-                                                            <td>01/01/2015</td>
-                                                            <td>07/05/2015</td>
-                                                            <td><span class="label label-info">Work in Progress</span></td>
-                                                            <td>Coderthemes</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2</td>
-                                                            <td>Velonic Frontend</td>
-                                                            <td>01/01/2015</td>
-                                                            <td>07/05/2015</td>
-                                                            <td><span class="label label-success">Pending</span></td>
-                                                            <td>Coderthemes</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>3</td>
-                                                            <td>Velonic Admin</td>
-                                                            <td>01/01/2015</td>
-                                                            <td>07/05/2015</td>
-                                                            <td><span class="label label-pink">Done</span></td>
-                                                            <td>Coderthemes</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>4</td>
-                                                            <td>Velonic Frontend</td>
-                                                            <td>01/01/2015</td>
-                                                            <td>07/05/2015</td>
-                                                            <td><span class="label label-purple">Work in Progress</span></td>
-                                                            <td>Coderthemes</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>5</td>
-                                                            <td>Velonic Admin</td>
-                                                            <td>01/01/2015</td>
-                                                            <td>07/05/2015</td>
-                                                            <td><span class="label label-warning">Coming soon</span></td>
-                                                            <td>Coderthemes</td>
-                                                        </tr>
-                                                        
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- /Portlet -->
+                    <div id="settings" class="tab-pane">
+                        <form class="form-horizontal" action="<?php echo site_url('user/change_password'); ?>" method="post" role="form">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">Current Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" name="current_password" class="form-control" required placeholder="********" >
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" name="password" class="form-control" required placeholder="********" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button class="btn btn-info" type="submit">Change</button>
+                                </div>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
  

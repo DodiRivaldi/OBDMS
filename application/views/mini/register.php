@@ -28,7 +28,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input class="form-control" type="text" name="phone" required="" placeholder="Phone">
+                                <input class="form-control" type="text" name="phone" required="" maxlength="10" placeholder="Phone">
                             </div>
                         </div>
                         <div class="form-group ">

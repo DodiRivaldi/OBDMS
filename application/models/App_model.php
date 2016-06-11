@@ -70,6 +70,23 @@ class App_model extends CI_Model {
     		return false;
     	}
     }
+
+    public function getUser($user_id = null)
+    {
+    	$url = base_url();
+    	$this->db->select('users.*, blood_groups.name as blood_group, districts.name as district, states.name as state, IF(users.img IS NULL, "'.$url.'assets/img/user-default.jpg", CONCAT("'.$url.'assets/uploads/users/", users.id, "/",users.img)) as user_img');
+    	$this->db->from('users');
+    	$this->db->join('blood_groups', 'users.blood_group_id = blood_groups.id', 'left');
+    	$this->db->join('districts', 'users.district_id = districts.id');
+    	$this->db->join('states', 'users.state_id = states.id');
+    	$this->db->where('users.id', $this->uid);
+    	$query = $this->db->get();
+    	if($query) {
+    		return $query->row();
+    	} else {
+    		return false;
+    	}
+    }
 }
 
 ?>
