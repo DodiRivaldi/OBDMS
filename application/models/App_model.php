@@ -136,6 +136,38 @@ class App_model extends CI_Model {
     		return false;
     	}
     }
+
+    public function getBloodGroupsCount()
+    {
+    	$this->db->select('blood_groups.name, (SELECT COUNT(*) FROM users WHERE blood_group_id = blood_groups.id) as count');
+    	$this->db->from('blood_groups');
+    	// $this->db->where('users.id', $user_id);
+    	$query = $this->db->get();
+    	if($query) {
+    		return $query->result();
+    	} else {
+    		return false;
+    	}
+    }
+
+    public function getRecentBloodDonated($limit = 5)
+    {
+    	$url = base_url();
+    	$this->db->select('users.*, blood_groups.name as blood_group, TIMESTAMPDIFF(YEAR, users.dob ,CURDATE()) AS age, IF(users.img IS NULL, "'.$url.'assets/img/user-default.jpg", CONCAT("'.$url.'assets/uploads/users/", users.id, "/",users.img)) as user_img');
+    	$this->db->from('donation_history');
+    	$this->db->join('users', 'donation_history.user_id = users.id', 'left');
+    	$this->db->join('blood_groups', 'users.blood_group_id = blood_groups.id', 'left');
+    	$this->db->where('users.user_type', 2);
+    	$this->db->limit($limit);
+    	$query = $this->db->get();
+    	if($query) {
+    		return $query->result();
+    	} else {
+    		return false;
+    	}
+    }
+
+
 }
 
 ?>

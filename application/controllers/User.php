@@ -28,10 +28,46 @@ class User extends CI_Controller {
 	public function index()
 	{
         $data['active'] = 1;
-		$this->load->view('user/template/header', $data);
-		$this->load->view('user/home');
+        $this->load->view('user/template/header', $data);
+        $data = $this->getAdminDashboardData();
+        $this->load->view('user/home', $data);
 		$this->load->view('user/template/footer');
 	}
+
+    public function getAdminDashboardData()
+    {
+        $data['user_count'] = $this->com->get_count('users', ['user_type' => 2]);
+        $data['org_count'] = $this->com->get_count('users', ['user_type' => 3]);
+        $data['members_count'] = $this->com->get_count('members');
+        $data['blood_donated_count'] = $this->com->get_count('donation_history');
+        $blood_group_counts = $this->app->getBloodGroupsCount();
+        $chart_data_blood = [];
+        foreach ($blood_group_counts as $key => $value) {
+            $temp = [];
+            $temp[] = $value->name;
+            $temp[] = (int) $value->count;
+            $chart_data_blood[] = $temp;
+        }
+        $data['blood_group_counts'] = json_encode($chart_data_blood);
+
+        $monthly_data = [];
+        $monthly_data[0]['name'] = 'Registration';
+        $monthly_data[1]['name'] = 'Donated';
+        $chart_categories = [];
+        $start_month = date('Y-m', strtotime(date('Y-m-d')."-9 months"));
+        $end_month = date('Y-m-d');
+
+        for($j = $start_month; $j <= $end_month ; $j = date('Y-m', strtotime($j."+1 months"))) {
+            $chart_categories[] = date('M y', strtotime($j));
+            $monthly_data[0]['data'][] = $this->com->get_count('users', 'DATE_FORMAT(created_at, "%Y-%m") = "'.$j.'"');
+            $monthly_data[1]['data'][] = $this->com->get_count('donation_history', 'DATE_FORMAT(date, "%Y-%m") = "'.$j.'"');
+        }
+
+        $data['reg_chart_category'] = json_encode($chart_categories);
+        $data['reg_chart_data'] = json_encode($monthly_data);
+        $data['recent_blood_donated'] = $this->app->getRecentBloodDonated(5);
+        return $data;
+    }
 
     public function search($group = null)
     {

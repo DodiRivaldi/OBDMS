@@ -8,7 +8,7 @@
           
 
         <!-- js placed at the end of the document so the pages load faster -->
-        <script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+        
         <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/js/modernizr.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/js/pace.min.js'); ?>"></script>
@@ -31,10 +31,6 @@
         <script src="<?php echo base_url('assets/assets/c3-chart/d3.v3.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/assets/c3-chart/c3.js'); ?>"></script>
 
-        <!--Morris Chart-->
-        <!-- <script src="<?php echo base_url('assets/assets/morris/morris.min.js'); ?>"></script>
-        <script src="<?php echo base_url('assets/assets/morris/raphael.min.js'); ?>"></script> -->
-
         <!-- sparkline --> 
         <script src="<?php echo base_url('assets/assets/sparkline-chart/jquery.sparkline.min.js'); ?>" type="text/javascript"></script>
         <script src="<?php echo base_url('assets/assets/sparkline-chart/chart-sparkline.js'); ?>" type="text/javascript"></script> 
@@ -49,9 +45,6 @@
         <script src="<?php echo base_url('assets/js/jquery.app.js'); ?>"></script>
         <!-- Chat -->
         <script src="<?php echo base_url('assets/js/jquery.chat.js'); ?>"></script>
-        <!-- Dashboard -->
-        <!-- <script src="<?php echo base_url('assets/js/jquery.dashboard.js'); ?>"></script> -->
-        
 
         <script src="<?php echo base_url('assets/assets/datatables/jquery.dataTables.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/assets/datatables/dataTables.bootstrap.js'); ?>"></script>

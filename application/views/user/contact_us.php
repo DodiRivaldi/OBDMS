@@ -19,8 +19,6 @@
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
-
-                         
                                 <tbody>
                                 <?php 
                                 if(!empty($messages)) { 

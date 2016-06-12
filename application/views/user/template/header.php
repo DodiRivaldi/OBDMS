@@ -27,8 +27,6 @@
         <link href="<?php echo base_url('assets/assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
         <link href="<?php echo base_url('assets/assets/ionicon/css/ionicons.min.css'); ?>" rel="stylesheet" />
 
-        <!--Morris Chart CSS -->
-        <link rel="stylesheet" href="<?php echo base_url('assets/assets/morris/morris.css'); ?>">
         <link href="<?php echo base_url('assets/assets/timepicker/bootstrap-datepicker.min.css'); ?>" rel="stylesheet" />
 
         <!-- sweet alerts -->
@@ -43,6 +41,9 @@
         <link href="<?php echo base_url('assets/css/helper.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/style-responsive.css'); ?>" rel="stylesheet" />
         <link href="<?php echo base_url('assets/css/custom.css'); ?>" rel="stylesheet" />
+
+
+        <script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
 
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
@@ -62,7 +63,7 @@
 
             <!-- brand -->
             <div class="logo">
-                <a href="index-2.html" class="logo-expanded">
+                <a href="<?php echo site_url('user'); ?>" class="logo-expanded">
                     <img src="<?php echo base_url('website/img/favicon.png'); ?>" alt="logo">
                     <span class="nav-label">ODBMS</span>
                 </a>
